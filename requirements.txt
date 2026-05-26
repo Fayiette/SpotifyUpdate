@@ -1,0 +1,6 @@
+spotipy
+requests
+boto3
+python-dotenv
+pandas
+pyarrow>=14.0
