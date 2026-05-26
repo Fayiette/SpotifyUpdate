@@ -54,7 +54,7 @@ jobs:
 
       - name: Run spotify_fetch.py
         env:
-          R2_PREFIX: ${{ secrets.SPOTIFY_R2_PREFIX }}
+          R2_PREFIX: ${{ secrets.R2_PREFIX }}
           R2_HISTORY_PARQUET_KEY: ${{ secrets.R2_HISTORY_PARQUET_KEY }}
           R2_SONGS_PARQUET_KEY: ${{ secrets.R2_SONGS_PARQUET_KEY }}
           R2_ALBUMS_PARQUET_KEY: ${{ secrets.R2_ALBUMS_PARQUET_KEY }}
